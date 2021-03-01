@@ -1,0 +1,40 @@
+---
+title: "Regression Models Course Project"
+author: "Al Kepner"
+date: "3/1/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Analysis of mtcars Dataset With Respect to Whether Automatic versus Manual Transmissions Significantly Affect Vehicle Fuel Efficiency (miles per gallon)
+
+## Executive Summary
+
+## Exploratory Data Analysis
+ - show means for mpg grouped by automatic and manual transmissions
+ - show correlation of mpg with each of auto, wt, hp
+ - show scatter plots of mpg with respect to these 3.
+ 
+## Model selection
+
+show multiple models and compare with anova and confidence intervals on coefficents.
+
+
+## Residual Plots and Diagnostics
+
+## Conclusions
+
+## Appendix
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
